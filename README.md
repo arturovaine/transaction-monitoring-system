@@ -115,24 +115,6 @@ times.
 ```
 
 
- ✔ frontend    
- ✔ grafana     
- ✔ backend     
- ✔ postgres    
- ✔ kafka      
- ✔ prometheus  
- ✔ zookeeper
-
-### Front
-
-> http://localhost:5173/
-
-### API
-
-> GET http://localhost:8080/suspicious
-
-> GET http://localhost:8080/transactions
-
 
 ### Components
 - Frontend (Vite/React) → Displays transaction monitoring dashboards.
@@ -143,6 +125,16 @@ times.
 - Prometheus Exporter → Extracts PostgreSQL metrics for monitoring.
 - Prometheus → Collects and aggregates system metrics.
 - Grafana → Provides dashboards for visualizing transaction statistics.
+
+#### Front
+
+> http://localhost:5173/
+
+#### API
+
+> GET http://localhost:8080/suspicious
+
+> GET http://localhost:8080/transactions
 
 ### Connections
 - Frontend Network (frontend) → Connects React with the backend.
